@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
+    // Set up camera
     public GameObject player;
     private Vector3 offset = new Vector3(0, 8, -15);
 
